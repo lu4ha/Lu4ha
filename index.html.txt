@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juli Lou - Graphic Designer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #000000, #333333);
+        }
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            color: #00ffcc;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 1.5em;
+        }
+        .contact {
+            margin-bottom: 2em;
+        }
+        .neon-clouds {
+            position: relative;
+            margin-top: 2em;
+        }
+        .neon-clouds::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: 100%;
+            height: 100%;
+            background: url('https://i.imgur.com/U9edSkW.png') no-repeat center center;
+            background-size: contain;
+            filter: brightness(1.5) blur(2px);
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Juli Lou</h1>
+        <h2>Graphic Designer</h2>
+        <div class="contact">
+            <p>Email: juli.lou@gmail.com</p>
+            <p>Telephone: +1 (123) 456-7890</p>
+        </div>
+        <div class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Juli Lou, a passionate graphic designer with a flair for creating visually stunning and innovative designs. I specialize in branding, web design, and illustration. With a keen eye for detail and a love for all things creative, I strive to bring fresh and unique perspectives to every project I undertake.</p>
+        </div>
+        <div class="portfolio">
+            <h2>Creative Portfolio</h2>
+            <p>Check out some of my latest works below:</p>
+            <!-- Add images or links to your portfolio items here -->
+        </div>
+        <div class="neon-clouds"></div>
+    </div>
+</body>
+</html>
