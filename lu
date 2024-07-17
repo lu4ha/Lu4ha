@@ -1,0 +1,107 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia Lou: Цифровой Арт-Мастер</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #87CEEB;
+            color: #333;
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #FF69B4;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #FF69B4;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #FF69B4;
+        }
+        .project {
+            background-color: white;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Julia Lou: Цифровой Арт-Мастер</h1>
+    </header>
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#services">Услуги</a>
+        <a href="#blog">Блог</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Обо мне</h2>
+            <p>Графический дизайнер с 10+ летним опытом. Специализируюсь на создании логотипов, брендинге и цифровых иллюстрациях.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Портфолио</h2>
+            <div class="project">
+                <h3>🎨 Редизайн логотипа Vaza Flowers</h3>
+                <img src="vaza_flowers_logo.jpg" alt="Vaza Flowers Logo">
+                <p><em>Graphic design project: Vaza Flowers logo redesign</em></p>
+            </div>
+            <!-- Добавьте остальные проекты аналогично -->
+        </section>
+        <section id="services">
+            <h2>Услуги</h2>
+            <ul>
+                <li>Разработка логотипов</li>
+                <li>Брендинг</li>
+                <li>Дизайн для социальных сетей</li>
+                <li>Анимация логотипов</li>
+                <li>Цифровые иллюстрации</li>
+            </ul>
+        </section>
+        <section id="blog">
+            <h2>Блог</h2>
+            <article>
+                <h3>💡 Туториал: "Создание анимированных логотипов"</h3>
+                <p><em>Tutorial: "Creating animated logos"</em></p>
+                <!-- Добавьте содержание блога -->
+            </article>
+            <!-- Добавьте остальные статьи блога аналогично -->
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Email: julialou@design.com</p>
+            <p>Телефон: +84 39 5198524</p>
+            <p>Instagram: @julia_lou_design</p>
+            <p>Behance: behance.net/julia_lou</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Julia Lou. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+```
